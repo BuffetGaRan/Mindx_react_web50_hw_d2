@@ -1,0 +1,53 @@
+.expense-form{
+    background-color: antiquewhite;
+    width: 25%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-5%, -50%);
+    box-shadow: 0 2px 8px grey;
+    border-radius: 5px;
+}
+
+.expense-form-title{
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.expense-form-item > label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.expense-form-item > label > input{
+    display: block;
+    margin: 5px 0;
+    outline: none;
+    width: 15rem;
+}
+
+.btn-form{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    margin: auto;
+}
+
+.btn-form > button{
+    margin-top: 10px;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#btn-submit{
+    margin-top: 2.5rem;
+}
